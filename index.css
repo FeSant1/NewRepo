@@ -1,0 +1,70 @@
+﻿body {
+    background-color: SkyBlue;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Opcional, para centralização vertical */
+    height: 200px; /* Defina a altura do contêiner */
+}
+
+   h1 {
+  text-align: center;
+    }
+p {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+ul li {
+    margin-bottom: 50px; /* Espaço entre os itens da lista */
+}
+.foto-aquarismo {
+    width: 400px; /* aumenta a largura */
+    height: auto; /* mantém a proporção */
+    position: relative; /* permite mover com top/left */
+    top: -80px; /* desce 20px */
+    left: 800px; /* move 30px para a direita */
+}
+
+
+img {
+    border-radius: 30px;
+}
+img {
+    width: 200px; /* Largura da imagem */
+    height: auto; /* Altura ajustada automaticamente para manter a proporção */
+}
+
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse; /* junta as bordas */
+    border: 2px solid #444;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: center;
+}
+
+
+tr:hover {
+    background-color: #e0e0e0; /* efeito ao passar o mouse */
+}
+
+a {
+    color: Purple; /* Cor padrão do link */
+    text-decoration: none; /* Remove o sublinhado (opcional) */
+}
+
+    a:hover {
+        color: red; /* Cor quando o mouse passa por cima */
+    }
+
+.meu-botao {
+    margin-top: -30px; /* desce o botão 20px */
+    margin-left: 500px; /* afasta da esquerda 50px */
+}
